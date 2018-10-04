@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EFC5EA7C21667E88006EC384 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5EA7B21667E88006EC384 /* AppDelegate.swift */; };
-		EFC5EA7E21667E88006EC384 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5EA7D21667E88006EC384 /* ViewController.swift */; };
+		EFC5EA7E21667E88006EC384 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC5EA7D21667E88006EC384 /* TableViewController.swift */; };
 		EFC5EA8121667E88006EC384 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC5EA7F21667E88006EC384 /* Main.storyboard */; };
 		EFC5EA8421667E88006EC384 /* CaseIterableTableViewSections.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EFC5EA8221667E88006EC384 /* CaseIterableTableViewSections.xcdatamodeld */; };
 		EFC5EA8621667E8B006EC384 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC5EA8521667E8B006EC384 /* Assets.xcassets */; };
@@ -37,7 +37,7 @@
 /* Begin PBXFileReference section */
 		EFC5EA7821667E88006EC384 /* CaseIterableTableViewSections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaseIterableTableViewSections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC5EA7B21667E88006EC384 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFC5EA7D21667E88006EC384 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFC5EA7D21667E88006EC384 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		EFC5EA8021667E88006EC384 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFC5EA8321667E88006EC384 /* CaseIterableTableViewSections.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CaseIterableTableViewSections.xcdatamodel; sourceTree = "<group>"; };
 		EFC5EA8521667E8B006EC384 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EFC5EA7B21667E88006EC384 /* AppDelegate.swift */,
-				EFC5EA7D21667E88006EC384 /* ViewController.swift */,
+				EFC5EA7D21667E88006EC384 /* TableViewController.swift */,
 				EFC5EA7F21667E88006EC384 /* Main.storyboard */,
 				EFC5EA8521667E8B006EC384 /* Assets.xcassets */,
 				EFC5EA8721667E8B006EC384 /* LaunchScreen.storyboard */,
@@ -259,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFC5EA7E21667E88006EC384 /* ViewController.swift in Sources */,
+				EFC5EA7E21667E88006EC384 /* TableViewController.swift in Sources */,
 				EFC5EA8421667E88006EC384 /* CaseIterableTableViewSections.xcdatamodeld in Sources */,
 				EFC5EA7C21667E88006EC384 /* AppDelegate.swift in Sources */,
 			);
