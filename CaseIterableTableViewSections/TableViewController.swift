@@ -7,11 +7,11 @@ class TableViewController: UITableViewController {
         case Third = 2
     }
     
-    enum TableViewSectionHeader: String, CaseIterable {
-        case First = "First"
-        case Second = "Second"
-        case Third = "Third"
-    }
+    var sectionHeader: [TableViewSection: String] = [
+        .First: "First Section",
+        .Second: "Second Section",
+        .Third: "Third Section"
+    ]
     
     var data: [TableViewSection: [String]] = [
         .First: ["First Section Cell"],
@@ -38,11 +38,12 @@ class TableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return TableViewSectionHeader.allCases[section].rawValue
+        let tableViewSection = TableViewSection.allCases[section]
+        return sectionHeader[tableViewSection]
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .default, reuseIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") ?? UITableViewCell(style: .default, reuseIdentifier: "cell")
         
         let tableViewSection: TableViewSection = TableViewSection.allCases[indexPath.section]
         if let sectionData: [String] = data[tableViewSection] {
